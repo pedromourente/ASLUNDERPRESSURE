@@ -155,7 +155,7 @@ hands.onResults(onResults);
 
 async function loadModel() {
   customModel = await tf.loadLayersModel(
-    "https://raw.githubusercontent.com/pedromourente/ASLUNDERPRESSURE/main/frontend/model/AlphabetModel.json"
+    "https://raw.githubusercontent.com/pedromourente/ASLUNDERPRESSURE/main/frontend/model/alphabet/model.json"
   );
 }
 

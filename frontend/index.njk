@@ -8,7 +8,17 @@ layout: 'layouts/base.njk'
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
 <section class="max-w-7xl mx-auto px-4 " >
+
+  <h1 class="py-6 rubik text-4xl font-bold text-white" >Learn ASL</h1>
     
+  <div class="flex flex-wrap gap-4 mb-8">
+
+        {% import 'components/cards.njk' as macro  %}
+        {{ macro.card('bg-[#bc434d]','/app/learnASL/index.html','Learn ASL','With some usefull visualizations and learning videos you can  learn Alphabet and Numbers beffor playing the game.
+.','/assets/img/youtubepic.png') }}
+
+  </div>
+
 
     <h1 class="py-6 rubik text-4xl font-bold text-white" >ASL Practice</h1>
     {# cards #}
