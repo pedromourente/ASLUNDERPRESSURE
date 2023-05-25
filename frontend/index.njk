@@ -1,0 +1,41 @@
+---
+title: 'SignLanguage: Learn Sign language practically'
+layout: 'layouts/base.njk'
+---
+
+{% include 'partials/_header.html' %}
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<section class="max-w-7xl mx-auto px-4 " >
+    
+
+    <h1 class="py-6 rubik text-4xl font-bold text-white" >ASL Practice</h1>
+    {# cards #}
+    <div class="flex flex-wrap gap-4 mb-8">
+        {# import card from component folder #}
+        {% import 'components/cards.njk' as macro  %}
+        {{ macro.card('bg-[#529be3]','/app/playAlphabet/index.html','Learn Alphabet','Learn the ASL alphabet with the help of a deep learning model.','/assets/img/alphabet.png') }}
+
+        {{ macro.card('bg-[#529be3]','/app/playNumbers/index.html','Learn Numbers','Learn numbers from 0-10 in  chronological order with the help of artificial intelligence.','/assets/img/numbers.png') }}
+
+
+
+
+
+        
+    </div>
+
+    <h1 class="py-6 rubik text-4xl font-bold text-white" >ASL Game</h1>
+    {# cards #}
+    <div class="flex flex-wrap gap-4 mb-8">
+        {# import card from component folder #}
+        {% import 'components/cards.njk' as macro  %}
+        {{ macro.card('bg-[#dc2626]','/app/underPressure/a-z/index.html','ASL UNDERPRESSURE','Test your ASL knowledge in a fun game where you battle against the clock by signing ASL letters at the right time','/assets/img/hell-yeah.png') }}
+
+
+        
+    </div>
+</section>
+
+{% include 'partials/_footer.html' %}
