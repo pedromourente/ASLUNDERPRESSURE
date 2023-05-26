@@ -1,0 +1,72 @@
+
+  
+  
+  /* Vedio CARDS */
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+  header {
+    background-color: #f2f2f2;
+    color: #0d0606;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    margin-top: 10;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .video-card {
+    width: 580px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .video-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .video-card p {
+    margin-top: 10px;
+  }
+
+  
