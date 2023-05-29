@@ -88,7 +88,7 @@ abbr:where([title]) {
 Remove the default font size and weight for headings.
 */
 
-h1,
+h1 ,
 h2,
 h3,
 h4,
@@ -1578,10 +1578,21 @@ input:checked + .toggle-bg{
   background-color: transparent;
 }
 
+.bg-\[\#9b7bad\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(155 123 173 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#529be3\]{
   --tw-bg-opacity: 1;
   background-color: rgb(82 155 227 / var(--tw-bg-opacity));
 }
+
+.bg-\[\#9c85a8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 133 168 / var(--tw-bg-opacity));
+}
+
 
 .bg-\[\#dc2626\]{
   --tw-bg-opacity: 1;
@@ -1628,7 +1639,7 @@ input:checked + .toggle-bg{
 }
 
 .p-6{
-  padding: 1.5rem;
+  padding: 5rem;
 }
 
 .p-2\.5{
@@ -2520,3 +2531,62 @@ h1 {
     transform:translateX(25%);
   }
 }
+
+/*
+
+vedio cards 
+
+*/
+
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 10;
+  padding: 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-card {
+  width: 580px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video-card p {
+  margin-top: 10px;
+}
+
