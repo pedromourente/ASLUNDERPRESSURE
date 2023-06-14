@@ -575,17 +575,17 @@ scene("menu",()=>{
   fire.play("ablaze");
 
 
-  getFile('https://raw.githubusercontent.com/pedromourente/DeepSL/main/hard.txt').then(content =>{
+  getFile('https://raw.githubusercontent.com/pedromourente/ASLUNDERPRESSURE/main/frontend/assets/randomWords/hard.txt').then(content =>{
     // Using split method and passing "\n" as parameter for splitting
     let normalWords =  content.trim().split("\n");
     console.log(normalWords);
 
-    getFile('https://raw.githubusercontent.com/pedromourente/DeepSL/main/extreme.txt').then(content =>{
+    getFile('https://raw.githubusercontent.com/pedromourente/ASLUNDERPRESSURE/main/frontend/assets/randomWords/extreme.txt').then(content =>{
     // Using split method and passing "\n" as parameter for splitting
     let hardWords  =  content.trim().split("\n");
     console.log(hardWords);
 
-    getFile('https://raw.githubusercontent.com/pedromourente/DeepSL/main/normal.txt').then(content =>{
+    getFile('https://raw.githubusercontent.com/pedromourente/ASLUNDERPRESSURE/main/frontend/assets/randomWords/normal.txt').then(content =>{
       // Using split method and passing "\n" as parameter for splitting
       let easyWords =  content.trim().split("\n");
       console.log(easyWords);

@@ -162,7 +162,7 @@ hands.onResults(onResults);
 async function loadModel() {
 
   customModel = await tf.loadLayersModel(
-    "https://raw.githubusercontent.com/pedromourente/ASLUNDERPRESSURE/main/frontend/model/NumberModel.json"
+    "https://raw.githubusercontent.com/pedromourente/ASLUNDERPRESSURE/main/frontend/model/numbers/model.json"
   );
 }
 
